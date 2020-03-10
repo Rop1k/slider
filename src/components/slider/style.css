@@ -1,0 +1,38 @@
+.slider_wrap{
+    position:relative;
+    height: 100%;
+}
+.slider_wr{
+    position:relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.slider_cont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+.prev_btn{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width:100px;
+    height: 200px;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+    background: red;
+}
+.next_btn{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    width:100px;
+    height: 200px;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+    background: red;
+}
