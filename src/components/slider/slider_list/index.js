@@ -5,7 +5,7 @@ import Slide from '../slide';
 
 function SlideItems(props) {
     return(
-        <Slide width={props.width} src={props.src} slideNumber="1"/>
+        <Slide classSlide={props.classSlide} src={props.src}/>
     )
 }
 
